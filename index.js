@@ -1,7 +1,7 @@
 //require's
 const inquirer = require('inquirer')
 const fs = require('fs')
-//const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 //Inquirer needs type, name, & message
 
@@ -18,12 +18,6 @@ const questions = [
     type: 'input',
     name: 'description',
     message: 'What is the description of your project?'
-  },
-  //Proj Table of Contents
-  {
-    type: 'input',
-    name: 'Proj-Title',
-    message: 'What is the name of your project?'
   },
   //Proj Installation
   {
@@ -70,17 +64,22 @@ const questions = [
   }
 ]
 
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
+// function to write README file
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) { throw err }
+    console.log('Your new readme has been created.')
+  })
+}
 
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
-  .then(input => {
-    console.log(input)
-  })
-  .catch(err => console.log(err))
+    .then(input => {
+      console.log(input)
+      writeToFile("newREADME.md", generateMarkdown(input))
+    })
+    .catch(err => console.log(err))
 }
 
 // function call to initialize program
