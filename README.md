@@ -5,19 +5,26 @@
   ***
   ## Table of Contents
   - [Description](#description)
+  - [Visual Presentation](#visual-presentation)
+  - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usuage](#usuage)
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
 
-  ***
-  ## Visual Presentation
-  ![VisualPresentation](images/readmeVisualPresentation.png)
   
   ***
   ## Description
   Create professional level Readme.md files quickly and effortlessly!
+
+  ***
+  ## Visual Presentation
+  ![VisualPresentation](images/readmeVisualPresentation.png)
+
+  ***
+  ## Technologies Used
+  Sample Text
 
   ***
   ## Installation
