@@ -12,6 +12,10 @@
   - [Additional Info](#additional-info)
 
   ***
+  ## Visual Presentation
+  ![VisualPresentation](images/readmeVisualPresentation.png)
+  
+  ***
   ## Description
   Create professional level Readme.md files quickly and effortlessly!
 
