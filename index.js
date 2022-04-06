@@ -80,7 +80,7 @@ function init() {
   .then(input => {
     console.log(input)
   })
-  .catch(err)
+  .catch(err => console.log(err))
 }
 
 // function call to initialize program
