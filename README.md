@@ -12,12 +12,16 @@
   - [Additional Info](#additional-info)
 
   ***
+  ## Visual Presentation
+  ![VisualPresentation](images/readmeVisualPresentation.png)
+  
+  ***
   ## Description
   Create professional level Readme.md files quickly and effortlessly!
 
   ***
   ## Installation
-  To install, download the files from github and install inquirer. Then simple run the index.js.
+  To install, download the files from github and install inquirer. Then simply run the index.js.
 
   ***
   ## Usuage
