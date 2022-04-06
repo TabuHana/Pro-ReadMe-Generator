@@ -18,6 +18,10 @@
   ***
   ## Description
   Create professional level Readme.md files quickly and effortlessly!
+  
+  ***
+  ## Technologies Used
+  Node and Inquirer.
 
   ***
   ## Installation
