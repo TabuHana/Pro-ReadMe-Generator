@@ -21,7 +21,7 @@
 
   ***
   ## Installation
-  To install, download the files from github and install inquirer. Then simple run the index.js.
+  To install, download the files from github and install inquirer. Then simply run the index.js.
 
   ***
   ## Usuage
