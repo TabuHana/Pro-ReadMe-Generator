@@ -28,8 +28,8 @@ const questions = [
   //Proj Usuage
   {
     type: 'input',
-    name: 'usuage',
-    message: 'What is the intended usuage of your project?'
+    name: 'usage',
+    message: 'What is the intended usage of your project?'
   },
   //Proj License
   {

@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   - [Visual Presentation](#visual-presentation)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
-  - [Usuage](#usuage)
+  - [Usage](#usage)
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
@@ -32,8 +32,8 @@ function generateMarkdown(data) {
   ${data.installation}
 
   ***
-  ## Usuage
-  ${data.usuage}
+  ## Usage
+  ${data.usage}
 
   ***
   ## Contribution
