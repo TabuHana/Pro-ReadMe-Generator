@@ -7,6 +7,8 @@ function generateMarkdown(data) {
   ***
   ## Table of Contents
   - [Description](#description)
+  - [Visual Presentation](#visual-presentation)
+  - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usuage](#usuage)
   - [Contribution](#contribution)
@@ -16,6 +18,14 @@ function generateMarkdown(data) {
   ***
   ## Description
   ${data.description}
+
+  ***
+  ## Technologies Used
+  
+
+  ***
+  ## Visual Presentation
+  ![VisualPresentation](images/readmeVisualPresentation.png)
 
   ***
   ## Installation
