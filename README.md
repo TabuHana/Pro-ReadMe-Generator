@@ -24,7 +24,7 @@
 
   ***
   ## Visual Presentation
-  ![VisualPresentation](images/readmeVisualPresentation.png)
+  ![VisualPresentation](images/ProReadMeGenerator.gif)
 
   ***
   ## Technologies Used
